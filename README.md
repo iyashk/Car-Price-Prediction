@@ -19,5 +19,5 @@ Run the app.py in the anaconda prompt. open the webpage link from the prompt
 A html page opens and enter the values according to the HTML file and the price is predicted.
 
 <p align="center">
-<img src="https://github.com/likhitkalla/VEHICLE-LICENSE-PLATE-DETECTION/blob/main/image/grayscale_image.jpg" width="425" height="300" />
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/IMAGE.png?raw=true" width="425" height="300" />
 </p>
