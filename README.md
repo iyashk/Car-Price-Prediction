@@ -12,12 +12,13 @@ after a pickle file named "random_forest_regression_model.pkl" genrates... Chang
 
 **Step 3 :**
 
-Run the app.py in the anaconda prompt. open the webpage link from the prompt
+Run the app.py in the anaconda prompt. open the webpage link from the prompt.
+
+<p align="center">
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/IMAGE.png?raw=true" width="525" height="200" />
+</p>
 
 **Step 4 :**
 
 A html page opens and enter the values according to the HTML file and the price is predicted.
 
-<p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/IMAGE.png?raw=true" width="425" height="300" />
-</p>
