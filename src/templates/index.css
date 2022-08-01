@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1px;
+    margin:0px 300px; 
+    /* width:100%; */
+
+}
+
+html{
+    background-color: black;
+    width: 100%;
+    /* border:2px solid black; */
+    
+}
+.head{
+    /* background-color: #4daea1; */
+    /* background-color: rgb(28, 124, 92); */
+    /* margin: 1px 10px; */
+    /* padding: 1px; */
+    
+    
+    /* border: 3px black solid; */
+    /* text-align: left; */
+}
+
+#image{
+    background-image: url(used.jpeg);
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size:100%;
+    border: 2px solid black;
+    /* padding:2px; */
+margin:0px 0px 0px 0px;
+overflow: scroll;
+    width: 99.5%;
+    height: 200px;
+    opacity: 0.8;
+}
+div
+.head h1{
+
+    padding:10px 40px 1px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    word-spacing: 0px;
+}
+.head h2{
+    /* padding:10px 40px 1px; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    word-spacing: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#research {
+    font-size: 18px;
+    width: 100px;
+    height: 23px;
+    top: 23px;
+}
+
+#box {
+    border-radius: 60px;
+    border-color: 45px;
+    border-style: solid;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(168, 131, 61);
+    font-size: medium;
+    position: absolute;
+    width: 700px;
+    bottom: 9%;
+    height: 850px;
+    right: 30%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+#fuel {
+    width: 83px;
+    height: 43px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+#fuel:hover {
+    background-color: coral;
+}
+
+#research {
+    width: 99px;
+    height: 43px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+#research:hover {
+    background-color: coral;
+}
+
+#resea {
+    width: 99px;
+    height: 43px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+#resea:hover {
+    background-color: coral;
+}
+
+#sub {
+    width: 120px;
+    height: 43px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+#sub:hover {
+    background-color: darkcyan;
+}
+
+#first {
+    border-radius: 14px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#second {
+    border-radius: 14px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#third {
+    border-radius: 14px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fourth {
+    border-radius: 14px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+} 
