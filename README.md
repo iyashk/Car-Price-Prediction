@@ -36,6 +36,10 @@ now run every cell in the notebook.
 
 After every cell is done running, we see a new file with `".pkl" extension` has been created in the same `src` folder. This file contains our model. That can be used for prediction using a web interface dveloped using flask and html.
 
+<p align="center">
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(2).png?raw=true" width="625" height="200" />
+</p>
+
 **Step 3 :**
 
 Run the app.py in the anaconda prompt. open the webpage link from the prompt.
