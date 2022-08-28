@@ -59,7 +59,7 @@ I recommend to install the following packages in the "carprice" environment
 Run the app.py in the anaconda prompt using `python3 app.py` then open the web-address displayed below.
 
 <p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true"  />
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true" height="500px" />
 </p>
 
 <a name="step3"></a>
