@@ -4,8 +4,8 @@ A model to predict the price of a used car should be developed in order to asses
 
 ## Steps:
 
-1. [ Creating a new Conda env ](#step1)
-2. [ Theory. ](#theory)
+1. [ Creating a new Conda env. ](#step1)
+2. [ Execution. ](#step2)
 3. [The Search Engine description.](#sengine)
 4. [ Setting up in Windows. ](#winsetup)
 5. [The Search Engine Usage.](#usage)
@@ -24,6 +24,16 @@ and now activate and switch to this environment using the command: `conda activa
 
 after a pickle file named "random_forest_regression_model.pkl" genrates... Change the directory in the anaconda promt to where the pickle file is saved .
 
+<a name="step2"></a>
+
+## 2. Execution
+
+Move to the location where you have cloned this repo, and now open the jupyter notebook from this directory.
+now run
+
+<p align="center">
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(1).png?raw=true" width="525" height="200" />
+</p>
 **Step 3 :**
 
 Run the app.py in the anaconda prompt. open the webpage link from the prompt.
