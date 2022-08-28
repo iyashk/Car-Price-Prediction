@@ -6,10 +6,9 @@ A model to predict the price of a used car should be developed in order to asses
 
 1. [ Creating a new Conda env. ](#step1)
 2. [ Training. ](#step2)
-3. [Working of the Model](#step3)
-4. [ Setting up in Windows. ](#winsetup)
-5. [The Search Engine Usage.](#usage)
-6. [Dataset](#dataset)
+3. [Execution](#step3)
+4. [Testing of the Model.](#step4)
+5. [Dataset](#dataset)
 
 <a name="step1"></a>
 
@@ -62,7 +61,7 @@ Run the app.py in the anaconda prompt using `python3 app.py` then open the web-a
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true" height="200px" />
 </p>
 
-<a name="step3"></a>
+<a name="step4"></a>
 
 ## 4.Testing the model
 
