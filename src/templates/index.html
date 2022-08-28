@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Price Prediction</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<body>
-    <p id ="image"> </p>
-    <div >
-        
-        <h1>Car Price Prediction</h1>
-    <h2>Predictive analysis</h2>
+  <body>
+    <p id="image"></p>
+    <div class="head">
+      <h1>Car Price Predictor</h1>
+      <h2>Predictive analysis</h2>
+    </div>
+    <div class="form">
+      <h3 style="text-align: center; color: red">
+        *Please fill all the fields in this form*
+      </h3>
+      <hr style="margin: 5px" />
+      <form action="{{ url_for('predict')}}" method="post" class="inside_form">
+        <p>
+          Purchase Year :
+          <!-- <input type="year" class="year"> -->
+          <input
+            id="first"
+            name="Year"
+            type="number"
+            placeholder="2000"
+            required="required"
+          />
+        </p>
+        <p>
+          Current Showroom Price :
+          <input
+            id="second"
+            name="Present_Price"
+            required="required"
+            placeholder="0"
+          />
+          (In lakhs)
+        </p>
+        <p>
+          Kilometers driven :
+          <input
+            id="third"
+            name="Kms_Driven"
+            required="required"
+            placeholder="50000"
+          />
+        </p>
+        <p>
+          Previously existing owners for the car :
+
+          <input
+            id="fourth"
+            name="Owner"
+            required="required"
+            placeholder="0 or 1 or 2"
+          />
+        </p>
+        <p class="center">
+          Fuel Type :
+
+          <select name="Fuel_Type_Petrol" id="fuel" required="required">
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Diesel">CNG</option>
+          </select>
+          Seller Type :
+          <select name="Seller_Type_Individual" id="resea" required="required">
+            <option value="Dealer">Dealer</option>
+            <option value="Individual">Individual</option>
+          </select>
+        </p>
+        <p></p>
+        <p>
+          Transmission type:
+          <select name="Transmission_Mannual" id="research" required="required">
+            <option value="Mannual">Manual Car</option>
+            <option value="Automatic">Automatic Car</option>
+          </select>
+        </p>
+        <input type="submit" value="Calculate" />
+      </form>
     </div>
 
-    <div >
-        <form action="{{ url_for('predict')}}" method="post">
-            
-            <h3>Year</h3>
-            <input id="first" name="Year" type="number ">
-            <h3>What is the Showroom Price?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
-            <h3>How Many Kilometers Drived?</h3><input id="third" name="Kms_Driven" required="required">
-            <h3>How much owners previously had the car(0 or 1 or 3) ?</h3><br><input id="fourth" name="Owner" required="required">
-            <h3>What Is the Fuel type?</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
-                <option value="Petrol">Petrol</option>
-                <option value="Diesel">Diesel</option>
-                <option value="Diesel">CNG</option>
-            </select>
-            <h3>Are you A Dealer or Individual</h3><br><select name="Seller_Type_Individual" id="resea" required="required">
-                <option value="Dealer">Dealer</option>
-                <option value="Individual">Individual</option>
-            </select>
-            <h3>Transmission type</h3><br><select name="Transmission_Mannual" id="research" required="required">
-                <option value="Mannual">Manual Car</option>
-                <option value="Automatic">Automatic Car</option>
-            </select>
-            <br><br><button id="sub" type="submit ">Calculate</button>
-            <br>
-
-
-
-
-        </form>
-
-
-        <pre>
-        <br><h3>{{ prediction_text }}lakhs <h3></pre>
-           
+    <div class="result">
+      <p style="height: 30px; padding: 2px">{{ prediction_text }}</p>
     </div>
-
-</body>
-
+  </body>
 </html>

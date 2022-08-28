@@ -1,29 +1,17 @@
 body {
-    background-color: white;
+    background-color: black;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     padding: 1px;
     margin:0px 300px; 
-    /* width:100%; */
-
 }
 
 html{
-    background-color: black;
+    background-color: #ffffff;
     width: 100%;
     /* border:2px solid black; */
     
-}
-.head{
-    /* background-color: #4daea1; */
-    /* background-color: rgb(28, 124, 92); */
-    /* margin: 1px 10px; */
-    /* padding: 1px; */
-    
-    
-    /* border: 3px black solid; */
-    /* text-align: left; */
 }
 
 #image{
@@ -32,48 +20,123 @@ html{
     background-repeat: no-repeat; 
     background-size:100%;
     border: 2px solid black;
-    /* padding:2px; */
-margin:0px 0px 0px 0px;
-overflow: scroll;
+    margin:0px 0px 0px 0px;
+    overflow: scroll;
     width: 99.5%;
     height: 200px;
-    opacity: 0.8;
 }
-div
-.head h1{
+div.head{
+    padding: 1px;
+    /* background-color:  rgb(28, 124, 92);; */
+    background-color: #4daea1;
+    border: 2px solid #31706c;
+    border-radius: 0px 0px 5px 5px;
+    height: 110px;
+}
 
-    padding:10px 40px 1px;
+.head h1{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    word-spacing: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 12px ;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
 }
 .head h2{
-    /* padding:10px 40px 1px; */
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    word-spacing: 0px;
+    margin: 0px;
+    font-size: 20px;
 }
 
+.form{
+    margin: 10px 100px 10px 100px;
+    border: solid black;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    background-color: white;
+    
+}
+.inside_form{
+    margin: 10px 20px;
+}
 
+p{  
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-#research {
-    font-size: 18px;
+#first {
+    border-radius: 5px;
+    height: 25px;
     width: 100px;
-    height: 23px;
-    top: 23px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#second {
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#third {
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fourth {
+    border-radius: 5px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+} 
+
+input[type="submit"] {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4daea1;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color:#31706c;
+}
+.result{
+    background-color: rgb(0, 123, 255);
+    margin: 0px 100px;
+    color: white;
+    border-radius:4px ;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fuel , #resea , #research{
+    margin: 2px;
+    padding: 2px;
+    border:1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#fuel:hover , #resea:hover , #research:hover{
+    color: white;
+    background-color: rgb(0, 123, 255);
 }
 
 #box {
@@ -93,79 +156,3 @@ div
     margin: 0px;
     font-size: 14px;
 }
-
-#fuel {
-    width: 83px;
-    height: 43px;
-    text-align: center;
-    border-radius: 14px;
-    font-size: 20px;
-}
-
-#fuel:hover {
-    background-color: coral;
-}
-
-#research {
-    width: 99px;
-    height: 43px;
-    text-align: center;
-    border-radius: 14px;
-    font-size: 18px;
-}
-
-#research:hover {
-    background-color: coral;
-}
-
-#resea {
-    width: 99px;
-    height: 43px;
-    text-align: center;
-    border-radius: 14px;
-    font-size: 18px;
-}
-
-#resea:hover {
-    background-color: coral;
-}
-
-#sub {
-    width: 120px;
-    height: 43px;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 18px;
-}
-
-#sub:hover {
-    background-color: darkcyan;
-}
-
-#first {
-    border-radius: 14px;
-    height: 25px;
-    font-size: 20px;
-    text-align: center;
-}
-
-#second {
-    border-radius: 14px;
-    height: 25px;
-    font-size: 20px;
-    text-align: center;
-}
-
-#third {
-    border-radius: 14px;
-    height: 25px;
-    font-size: 20px;
-    text-align: center;
-}
-
-#fourth {
-    border-radius: 14px;
-    height: 25px;
-    font-size: 20px;
-    text-align: center;
-} 
