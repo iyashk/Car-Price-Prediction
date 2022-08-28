@@ -19,6 +19,7 @@ Its always better to implement a project in a new environment as you can know th
 <p align="center">
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_1.png?raw=true" />
 </p>
+
 and now activate and switch to this environment using the command: `conda activate carprice`
 
 after a pickle file named "random_forest_regression_model.pkl" genrates... Change the directory in the anaconda promt to where the pickle file is saved .
