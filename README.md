@@ -68,7 +68,7 @@ Run the app.py in the anaconda prompt using `python3 app.py` then open the web-a
 A html page opens and enter the values according to the HTML file and the price is predicted.
 
 <p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/img_2.png?raw=true" height="200px" />
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/img_2.png?raw=true"  />
 </p>
 <a name="dataset"></a>
 
