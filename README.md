@@ -78,5 +78,4 @@ The data we have used in this project was downloaded from Kaggle. It was uploade
 The dataset consists of 301 rows and 9 columns with no null values. Column data
 consist of independent Features. The independent features contain both categorical and numeric
 values.
-
 <a href = "https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho" style="text-decoration:none;">Link to Dataset </a>
