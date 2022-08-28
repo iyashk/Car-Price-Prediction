@@ -5,8 +5,8 @@ A model to predict the price of a used car should be developed in order to asses
 ## Steps:
 
 1. [ Creating a new Conda env. ](#step1)
-2. [ Execution. ](#step2)
-3. [The Search Engine description.](#sengine)
+2. [ Training. ](#step2)
+3. [Working of the Model](#step3)
 4. [ Setting up in Windows. ](#winsetup)
 5. [The Search Engine Usage.](#usage)
 6. [Dataset](#dataset)
@@ -25,7 +25,7 @@ and now activate and switch to this environment using the command: `conda activa
 
 <a name="step2"></a>
 
-## 2. Execution
+## 2. Training
 
 Move to the location where you have cloned this repo, and now open the jupyter notebook from this directory.
 now run every cell in the notebook.
@@ -34,15 +34,29 @@ now run every cell in the notebook.
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(1).png?raw=true" width="625" height="200" />
 </p>
 
-After every cell is done running, we see a new file with `".pkl" extension` has been created in the same `src` folder. This file contains our model. That can be used for prediction using a web interface dveloped using flask and html.
+After every cell is done running, we see a new file with `".pkl" extension` has been created in the same `src` folder. This file contains our model. A web interface has been developed using flask and HTML and can be used for prediction.
 
 <p align="center">
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(2).png?raw=true" width="625" height="200" />
 </p>
 
-**Step 3 :**
+<a name="step3"></a>
 
-Run the app.py in the anaconda prompt. open the webpage link from the prompt.
+## 3.Working of the Model on real-time user inputs
+
+I recommend to install the following packages in the "carprice" environment
+
+    - "flask" package : `pip install flask` command.
+
+    - "jsonify" package : `pip install jsonify` command.
+
+    - "requests" package : `pip install requests` command.
+
+    - "numpy" package : `pip install numpy` command.
+
+    - "sklearn" package : `pip install sklearn` command
+
+Run the app.py in the anaconda prompt using `python3 app.py` then open the web-address displayed below.
 
 <p align="center">
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true" width="525" height="200" />
