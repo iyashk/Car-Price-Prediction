@@ -67,8 +67,6 @@ Run the app.py in the anaconda prompt using `python3 app.py` then open the web-a
 
 A html page opens and enter the values according to the HTML file and the price is predicted.
 
-after a pickle file named "random_forest_regression_model.pkl" genrates... Change the directory in the anaconda promt to where the pickle file is saved .
-
 <a name="dataset"></a>
 
 ## 5.Dataset
