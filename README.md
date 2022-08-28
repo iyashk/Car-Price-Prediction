@@ -17,7 +17,7 @@ A model to predict the price of a used car should be developed in order to asses
 Its always better to implement a project in a new environment as you can know the exact requirements needed for the project to run. When we create a new environmen, we are starting with no pre-installed packages or tools. So to create a new environment in anaconda prompt use the command : `conda create -n carprice python=3.6`
 
 <p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true" width="525" height="200" />
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_1.png?raw=true" />
 </p>
 
 Run the ipynb file to create the model
