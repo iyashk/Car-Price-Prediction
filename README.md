@@ -62,7 +62,9 @@ Run the app.py in the anaconda prompt using `python3 app.py` then open the web-a
 <img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/IMAGE.png?raw=true" width="525" height="200" />
 </p>
 
-**Step 4 :**
+<a name="step3"></a>
+
+## 4.Testing the model
 
 A html page opens and enter the values according to the HTML file and the price is predicted.
 
@@ -70,4 +72,4 @@ after a pickle file named "random_forest_regression_model.pkl" genrates... Chang
 
 <a name="dataset"></a>
 
-## 6.Dataset
+## 5.Dataset
