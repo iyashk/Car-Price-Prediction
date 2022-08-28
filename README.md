@@ -21,7 +21,10 @@ Its always better to implement a project in a new environment as you can know th
 </p>
 and now activate and switch to this environment using the command `conda activate carprice`
 
-\***\*Note:`env name can be as u wish`\*\***
+<p style="border:2px solid ">
+    \***\*Note:`env name can be as u wish`\*\***
+</p>
+
 
 after a pickle file named "random_forest_regression_model.pkl" genrates... Change the directory in the anaconda promt to where the pickle file is saved .
 
