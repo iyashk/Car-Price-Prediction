@@ -74,7 +74,7 @@ after a pickle file named "random_forest_regression_model.pkl" genrates... Chang
 
 ## 5.Dataset
 
-The data we have used in this project was downloaded from <a href = "https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho" style="text-decoration:none;"> Kaggle</a>. It was uploaded from Cardekho.com .
+The data we have used in this project was downloaded from <a href = "https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho" style="text-decoration:none;" target="_blank"> Kaggle</a>. It was uploaded from Cardekho.com .
 The dataset consists of 301 rows and 9 columns with no null values. Column data
 consist of independent Features. The independent features contain both categorical and numeric
 values.
