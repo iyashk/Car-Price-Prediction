@@ -32,7 +32,7 @@ Move to the location where you have cloned this repo, and now open the jupyter n
 now run
 
 <p align="center">
-<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(1).png?raw=true" width="525" height="200" />
+<img src="https://github.com/iyashk/Car-Price-Prediction/blob/main/images/Step_2(1).png?raw=true" width="625" height="200" />
 </p>
 **Step 3 :**
 
